@@ -1,0 +1,23 @@
+<pedido>
+	<cliente>
+		<nome>#[CLIENTE_NOME]</nome>
+	</cliente>
+	<itens>
+		<item>
+			<codigo>#[ITEM_CODIGO]</codigo>
+			<descricao>#[ITEM_DESCRICAO]</descricao>
+			<qtde>#[ITEM_QTDE]</qtde>
+			<vlr_unit>#[ITEM_VLR_UNIT]</vlr_unit>
+		</item>
+	</itens>
+	<parcelas>
+		<parcela>
+			<vlr>#[PARCELA_VLR]</vlr>
+		</parcela>
+	</parcelas>
+	<volumes>
+		<volume>
+			<servico>#[VOLUME_SERVICO]</servico>
+		</volume>
+	</volumes>
+</pedido>

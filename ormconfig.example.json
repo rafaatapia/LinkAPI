@@ -1,0 +1,15 @@
+[
+  {
+    "name": "default",
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "username": "linkapi",
+    "password": "linkapi",
+    "database": "linkapi",
+    "useUnifiedTopology": true,
+    "entities": [
+      "./src/modules/**/infra/typeorm/schemas/*.ts"
+    ]
+  }
+]
